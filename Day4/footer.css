@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+}
+
+.links{
+    display: flex;
+}
+
+.usefullinks{
+    width: 25%;
+}
+
+.copy{
+    background-color: darkblue;
+    color: white;
+    display: flex;
+    height: 45px;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright{
+    width: 50%;
+    margin-left: 10% ;
+}
+
+.cname{
+    width: 50%;
+    margin-left: 20%;
+}
+
+
+@media(max-width : 600px){
+    .links{
+        flex-direction: column;
+    }
+    .usefullinks{
+        width: 100%;
+        margin-left: 30%;
+    }
+    .Contact{
+        width: 100%;
+        margin-left: 30%;
+    }
+    .copy{
+        flex-direction: column;
+        height: 70px;
+    }
+    .copyright{
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+    .cname{
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+}
