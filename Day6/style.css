@@ -1,0 +1,32 @@
+body{
+    background-color: blue;
+}
+
+.k{
+    background-color: white !important;
+}
+
+.inp{
+    border: none;
+    border-bottom: 1px solid black;
+    outline: 0;
+}
+
+.tbh{
+    background-color: rgb(25, 249, 25);
+}
+
+.tbh:hover{
+    background-color: rgb(5, 224, 5);
+}
+
+@media(max-width:600px){
+    .img-div{
+        display: none;
+    }
+    .content-div{
+        margin-top: 0;
+        width: 100vb;
+        height: 100vh;
+    }
+}

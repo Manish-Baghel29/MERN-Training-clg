@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+        function greet(){
+            // alert("hello world!");
+            // document.writeln("Hello world");
+            // console.log("Hello world");
+            let data = document.querySelector('#abc').value;
+            document.querySelector('#result').innerHTML=data;
+        }
+    </script>
+  </head>
+  <body>
+    <div style="text-align: center;">
+        <input type="text" name="" id="abc">
+      <input type="submit" value="Click Me" onclick="greet()" /><br><br>
+      <div id="result"></div>
+    </div>
+  </body>
+</html>

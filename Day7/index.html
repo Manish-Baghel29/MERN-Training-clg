@@ -1,0 +1,628 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/my_style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <a href="login.html" class="btn btn-success">Login</a>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="assets/sliders/Aarambh-cf.webp" class="d-block w-100 my_slider_img" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="assets/sliders/Temple-of-Love-Cf.webp" class="d-block w-100 my_slider_img" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="assets/sliders/VFN-Eoss-All-Brands.webp" class="d-block w-100 my_slider_img" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="my_title">
+                    our trainding products
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8">
+                <img src="assets/img/banner01.jpg" alt="" class="img-fluid my_img">
+            </div>
+            <div class="col-md-4">
+                <img src="assets/img/banner02.jpg" alt="" class="img-fluid my_img">
+            </div>
+        </div>
+        <div class="row" style="margin-top: 2%;">
+            <div class="col-md-4">
+                <img src="assets/img/banner03.jpg" alt="" class="img-fluid my_img">
+            </div>
+            <div class="col-md-8">
+                <img src="assets/img/banner04.jpg" alt="" class="img-fluid my_img">
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="my_title">our latest product</div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card" style="width: 100%;">
+                    <img src="assets/img/banner05.jpg" class="card-img-top my_img_cart" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text" style="text-align: justify;">A shoe is an item of footwear designed to
+                            protect footwear designed to protect and comfort the human foot, though it also serves as a
+                            fashion item.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><span style="font-weight: bold;">Price</span> : ₹3200</li>
+                        <li class="list-group-item"><span style="font-weight: bold;">Brand</span> : Addidas</li>
+                        <li class="list-group-item">
+                            <img src="assets/gallery/star.png" alt="" class="img_star">&nbsp;
+                            <img src="assets/gallery/star.png" alt="" class="img_star">&nbsp;
+                            <img src="assets/gallery/star.png" alt="" class="img_star">&nbsp;
+                            <img src="assets/gallery/star.png" alt="" class="img_star">&nbsp;
+                        </li>
+                    </ul>
+                    <div class="card-body">
+                        <a href="#" class="btn btn-outline-success my_cart_btn">Add to Cart</a>
+                        <span style="float: right;"> <a href="#" class="btn btn-outline-primary my_cart_btn">View</a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card" style="width: 100%;">
+                    <img src="assets/img/banner06.jpg" class="card-img-top my_img_cart" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text" style="text-align: justify;">A shoe is an item of footwear designed to
+                            protect footwear designed to protect and comfort the human foot, though it also serves as a
+                            fashion item.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><span style="font-weight: bold;">Price</span> : ₹3200</li>
+                        <li class="list-group-item"><span style="font-weight: bold;">Brand</span> : Addidas</li>
+                        <li class="list-group-item">
+                            <img src="assets/gallery/star.png" alt="" class="img_star">&nbsp;
+                            <img src="assets/gallery/star.png" alt="" class="img_star">&nbsp;
+                            <img src="assets/gallery/star.png" alt="" class="img_star">&nbsp;
+                            <img src="assets/gallery/star.png" alt="" class="img_star">&nbsp;
+                        </li>
+                    </ul>
+                    <div class="card-body">
+                        <a href="#" class="btn btn-outline-success my_cart_btn">Add to Cart</a>
+                        <span style="float: right;"> <a href="#" class="btn btn-outline-primary my_cart_btn">View</a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card" style="width: 100%;">
+                    <img src="assets/img/banner07.jpg" class="card-img-top my_img_cart" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text" style="text-align: justify;">A shoe is an item of footwear designed to
+                            protect footwear designed to protect and comfort the human foot, though it also serves as a
+                            fashion item.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><span style="font-weight: bold;">Price</span> : ₹3200</li>
+                        <li class="list-group-item"><span style="font-weight: bold;">Brand</span> : Addidas</li>
+                        <li class="list-group-item">
+                            <img src="assets/gallery/star.png" alt="" class="img_star">&nbsp;
+                            <img src="assets/gallery/star.png" alt="" class="img_star">&nbsp;
+                            <img src="assets/gallery/star.png" alt="" class="img_star">&nbsp;
+                            <img src="assets/gallery/star.png" alt="" class="img_star">&nbsp;
+                        </li>
+                    </ul>
+                    <div class="card-body">
+                        <a href="#" class="btn btn-outline-success my_cart_btn">Add to Cart</a>
+                        <span style="float: right;"> <a href="#" class="btn btn-outline-primary my_cart_btn">View</a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="margin-top: 2%;">
+            <div class="col-md-4">
+                <div class="card" style="width: 100%;">
+                    <img src="assets/img/banner08.jpg" class="card-img-top my_img_cart" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text" style="text-align: justify;">A shoe is an item of footwear designed to
+                            protect footwear designed to protect and comfort the human foot, though it also serves as a
+                            fashion item.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><span style="font-weight: bold;">Price</span> : ₹3200</li>
+                        <li class="list-group-item"><span style="font-weight: bold;">Brand</span> : Addidas</li>
+                        <li class="list-group-item">
+                            <img src="assets/gallery/star.png" alt="" class="img_star">&nbsp;
+                            <img src="assets/gallery/star.png" alt="" class="img_star">&nbsp;
+                            <img src="assets/gallery/star.png" alt="" class="img_star">&nbsp;
+                            <img src="assets/gallery/star.png" alt="" class="img_star">&nbsp;
+                        </li>
+                    </ul>
+                    <div class="card-body">
+                        <a href="#" class="btn btn-outline-success my_cart_btn">Add to Cart</a>
+                        <span style="float: right;"> <a href="#" class="btn btn-outline-primary my_cart_btn">View</a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card" style="width: 100%;">
+                    <img src="assets/img/banner09.jpg" class="card-img-top my_img_cart" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text" style="text-align: justify;">A shoe is an item of footwear designed to
+                            protect footwear designed to protect and comfort the human foot, though it also serves as a
+                            fashion item.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><span style="font-weight: bold;">Price</span> : ₹3200</li>
+                        <li class="list-group-item"><span style="font-weight: bold;">Brand</span> : Addidas</li>
+                        <li class="list-group-item">
+                            <img src="assets/gallery/star.png" alt="" class="img_star">&nbsp;
+                            <img src="assets/gallery/star.png" alt="" class="img_star">&nbsp;
+                            <img src="assets/gallery/star.png" alt="" class="img_star">&nbsp;
+                            <img src="assets/gallery/star.png" alt="" class="img_star">&nbsp;
+                        </li>
+                    </ul>
+                    <div class="card-body">
+                        <a href="#" class="btn btn-outline-success my_cart_btn">Add to Cart</a>
+                        <span style="float: right;"> <a href="#" class="btn btn-outline-primary my_cart_btn">View</a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card" style="width: 100%;">
+                    <img src="assets/img/banner10.jpg" class="card-img-top my_img_cart" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text" style="text-align: justify;">A shoe is an item of footwear designed to
+                            protect footwear designed to protect and comfort the human foot, though it also serves as a
+                            fashion item.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><span style="font-weight: bold;">Price</span> : ₹3200</li>
+                        <li class="list-group-item"><span style="font-weight: bold;">Brand</span> : Addidas</li>
+                        <li class="list-group-item">
+                            <img src="assets/gallery/star.png" alt="" class="img_star">&nbsp;
+                            <img src="assets/gallery/star.png" alt="" class="img_star">&nbsp;
+                            <img src="assets/gallery/star.png" alt="" class="img_star">&nbsp;
+                            <img src="assets/gallery/star.png" alt="" class="img_star">&nbsp;
+                        </li>
+                    </ul>
+                    <div class="card-body">
+                        <a href="#" class="btn btn-outline-success my_cart_btn">Add to Cart</a>
+                        <span style="float: right;"> <a href="#" class="btn btn-outline-primary my_cart_btn">View</a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="my_title">our 30% discount products</div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card my_card" style="width: 100%;">
+                    <img src="assets/img/banner05.jpg" class="card-img-top my_img_cart" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text" style="text-align: justify;">A shoe is an item of footwear designed to
+                            protect footwear it also serves as a
+                            fashion item.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><span style="font-weight: bold;">Price</span> : ₹3200</li>
+                        <li class="list-group-item"><span style="font-weight: bold;">Brand</span> : Addidas</li>
+                        <li class="list-group-item">
+                            <img src="assets/gallery/star.png" alt="" class="img_star">&nbsp;
+                            <img src="assets/gallery/star.png" alt="" class="img_star">&nbsp;
+                            <img src="assets/gallery/star.png" alt="" class="img_star">&nbsp;
+                            <img src="assets/gallery/star.png" alt="" class="img_star">&nbsp;
+                        </li>
+                    </ul>
+                    <div class="card-body">
+                        <a href="#" class="btn btn-outline-success my_cart_btn1">Add to Cart</a>
+                        <span style="float: right;"> <a href="#" class="btn btn-outline-primary my_cart_btn1">View</a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card my_card" style="width: 100%;">
+                    <img src="assets/img/banner06.jpg" class="card-img-top my_img_cart" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text" style="text-align: justify;">A shoe is an item of footwear designed to
+                            protect footwear it also serves as a
+                            fashion item.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><span style="font-weight: bold;">Price</span> : ₹3200</li>
+                        <li class="list-group-item"><span style="font-weight: bold;">Brand</span> : Addidas</li>
+                        <li class="list-group-item">
+                            <img src="assets/gallery/star.png" alt="" class="img_star">&nbsp;
+                            <img src="assets/gallery/star.png" alt="" class="img_star">&nbsp;
+                            <img src="assets/gallery/star.png" alt="" class="img_star">&nbsp;
+                            <img src="assets/gallery/star.png" alt="" class="img_star">&nbsp;
+                        </li>
+                    </ul>
+                    <div class="card-body">
+                        <a href="#" class="btn btn-outline-success my_cart_btn1">Add to Cart</a>
+                        <span style="float: right;"> <a href="#" class="btn btn-outline-primary my_cart_btn1">View</a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card my_card" style="width: 100%;">
+                    <img src="assets/img/banner07.jpg" class="card-img-top my_img_cart" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text" style="text-align: justify;">A shoe is an item of footwear designed to
+                            protect footwear it also serves as a
+                            fashion item.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><span style="font-weight: bold;">Price</span> : ₹3200</li>
+                        <li class="list-group-item"><span style="font-weight: bold;">Brand</span> : Addidas</li>
+                        <li class="list-group-item">
+                            <img src="assets/gallery/star.png" alt="" class="img_star">&nbsp;
+                            <img src="assets/gallery/star.png" alt="" class="img_star">&nbsp;
+                            <img src="assets/gallery/star.png" alt="" class="img_star">&nbsp;
+                            <img src="assets/gallery/star.png" alt="" class="img_star">&nbsp;
+                        </li>
+                    </ul>
+                    <div class="card-body">
+                        <a href="#" class="btn btn-outline-success my_cart_btn1">Add to Cart</a>
+                        <span style="float: right;"> <a href="#" class="btn btn-outline-primary my_cart_btn1">View</a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card my_card" style="width: 100%;">
+                    <img src="assets/img/banner08.jpg" class="card-img-top my_img_cart" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text" style="text-align: justify;">A shoe is an item of footwear designed to
+                            protect footwear it also serves as a
+                            fashion item.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><span style="font-weight: bold;">Price</span> : ₹3200</li>
+                        <li class="list-group-item"><span style="font-weight: bold;">Brand</span> : Addidas</li>
+                        <li class="list-group-item">
+                            <img src="assets/gallery/star.png" alt="" class="img_star">&nbsp;
+                            <img src="assets/gallery/star.png" alt="" class="img_star">&nbsp;
+                            <img src="assets/gallery/star.png" alt="" class="img_star">&nbsp;
+                            <img src="assets/gallery/star.png" alt="" class="img_star">&nbsp;
+                        </li>
+                    </ul>
+                    <div class="card-body">
+                        <a href="#" class="btn btn-outline-success my_cart_btn1">Add to Cart</a>
+                        <span style="float: right;"> <a href="#" class="btn btn-outline-primary my_cart_btn1">View</a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="margin-top: 2%;">
+            <div class="col-md-3">
+                <div class="card my_card" style="width: 100%;">
+                    <img src="assets/img/banner05.jpg" class="card-img-top my_img_cart" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text" style="text-align: justify;">A shoe is an item of footwear designed to
+                            protect footwear it also serves as a
+                            fashion item.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><span style="font-weight: bold;">Price</span> : ₹3200</li>
+                        <li class="list-group-item"><span style="font-weight: bold;">Brand</span> : Addidas</li>
+                        <li class="list-group-item">
+                            <img src="assets/gallery/star.png" alt="" class="img_star">&nbsp;
+                            <img src="assets/gallery/star.png" alt="" class="img_star">&nbsp;
+                            <img src="assets/gallery/star.png" alt="" class="img_star">&nbsp;
+                            <img src="assets/gallery/star.png" alt="" class="img_star">&nbsp;
+                        </li>
+                    </ul>
+                    <div class="card-body">
+                        <a href="#" class="btn btn-outline-success my_cart_btn1">Add to Cart</a>
+                        <span style="float: right;"> <a href="#" class="btn btn-outline-primary my_cart_btn1">View</a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card my_card" style="width: 100%;">
+                    <img src="assets/img/banner06.jpg" class="card-img-top my_img_cart" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text" style="text-align: justify;">A shoe is an item of footwear designed to
+                            protect footwear it also serves as a
+                            fashion item.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><span style="font-weight: bold;">Price</span> : ₹3200</li>
+                        <li class="list-group-item"><span style="font-weight: bold;">Brand</span> : Addidas</li>
+                        <li class="list-group-item">
+                            <img src="assets/gallery/star.png" alt="" class="img_star">&nbsp;
+                            <img src="assets/gallery/star.png" alt="" class="img_star">&nbsp;
+                            <img src="assets/gallery/star.png" alt="" class="img_star">&nbsp;
+                            <img src="assets/gallery/star.png" alt="" class="img_star">&nbsp;
+                        </li>
+                    </ul>
+                    <div class="card-body">
+                        <a href="#" class="btn btn-outline-success my_cart_btn1">Add to Cart</a>
+                        <span style="float: right;"> <a href="#" class="btn btn-outline-primary my_cart_btn1">View</a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card my_card" style="width: 100%;">
+                    <img src="assets/img/banner07.jpg" class="card-img-top my_img_cart" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text" style="text-align: justify;">A shoe is an item of footwear designed to
+                            protect footwear it also serves as a
+                            fashion item.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><span style="font-weight: bold;">Price</span> : ₹3200</li>
+                        <li class="list-group-item"><span style="font-weight: bold;">Brand</span> : Addidas</li>
+                        <li class="list-group-item">
+                            <img src="assets/gallery/star.png" alt="" class="img_star">&nbsp;
+                            <img src="assets/gallery/star.png" alt="" class="img_star">&nbsp;
+                            <img src="assets/gallery/star.png" alt="" class="img_star">&nbsp;
+                            <img src="assets/gallery/star.png" alt="" class="img_star">&nbsp;
+                        </li>
+                    </ul>
+                    <div class="card-body">
+                        <a href="#" class="btn btn-outline-success my_cart_btn1">Add to Cart</a>
+                        <span style="float: right;"> <a href="#" class="btn btn-outline-primary my_cart_btn1">View</a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card my_card" style="width: 100%;">
+                    <img src="assets/img/banner08.jpg" class="card-img-top my_img_cart" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text" style="text-align: justify;">A shoe is an item of footwear designed to
+                            protect footwear it also serves as a
+                            fashion item.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><span style="font-weight: bold;">Price</span> : ₹3200</li>
+                        <li class="list-group-item"><span style="font-weight: bold;">Brand</span> : Addidas</li>
+                        <li class="list-group-item">
+                            <img src="assets/gallery/star.png" alt="" class="img_star">&nbsp;
+                            <img src="assets/gallery/star.png" alt="" class="img_star">&nbsp;
+                            <img src="assets/gallery/star.png" alt="" class="img_star">&nbsp;
+                            <img src="assets/gallery/star.png" alt="" class="img_star">&nbsp;
+                        </li>
+                    </ul>
+                    <div class="card-body">
+                        <a href="#" class="btn btn-outline-success my_cart_btn1">Add to Cart</a>
+                        <span style="float: right;"> <a href="#" class="btn btn-outline-primary my_cart_btn1">View</a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <img src="assets/sliders/VFN-Eoss-All-Brands.webp" alt="" class="offer">
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="my_title">
+                    our 50% Dsicoutn products
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <img src="assets/img/banner01.jpg" alt="" class="img-fluid my_img">
+            </div>
+            <div class="col-md-8">
+                <img src="assets/img/banner02.jpg" alt="" class="img-fluid my_img">
+            </div>
+        </div>
+        <div class="row" style="margin-top: 2%;">
+            <div class="col-md-8">
+                <img src="assets/img/banner03.jpg" alt="" class="img-fluid my_img">
+            </div>
+            <div class="col-md-4">
+                <img src="assets/img/banner04.jpg" alt="" class="img-fluid my_img">
+            </div>
+        </div>
+    </div>
+
+    <footer style="margin-top: 5%;">
+        <div class="container footer_con" style="position: relative;z-index:1; ">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="sub">
+                        Subscribe
+                    </div>
+                    <div class="sub1">
+                        Enter your email and get latest update email and get latest update 
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="footer_mar">
+                        <input type="text" name="" id=""  class="footer_text" placeholder="Enter  Your Email">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid footer_con_down" style="margin-top: -75px;">
+            <div class="row footer_row">
+                <div class="col-md-12"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="footer_title">
+                        about us
+                    </div>
+                    <p style="text-align: justify;">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore exercitationem fugit mollitia
+                        eaque neque dolorum repellat voluptate illum quasi iusto modi deleniti natus hic, minus ab, sint
+                        ipsam, quis omnis.
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius a libero totam voluptatibus odio
+                        ullam soluta excepturi sit et deserunt, mollitia sed alias recusandae, non harum praesentium
+                        quasi repellendus atque?
+                    </p>
+                </div>
+                <div class="col-md-3">
+                    <div class="footer_title">
+                        quick links
+                    </div>
+                    <table border="0" width="100%">
+                        <tr>
+                            <td>
+                                <div class="footer_ul">
+                                    <ul>
+                                        <li><a href="">Anorid</a></li>
+                                        <li><a href="">Anorid</a></li>
+                                        <li><a href="">Anorid</a></li>
+                                        <li><a href="">Anorid</a></li>
+                                        <li><a href="">Anorid</a></li>
+                                        <li><a href="">Anorid</a></li>
+                                        <li><a href="">Anorid</a></li>
+                                    </ul>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="footer_ul">
+                                    <ul>
+                                        <li><a href="">Anorid</a></li>
+                                        <li><a href="">Anorid</a></li>
+                                        <li><a href="">Anorid</a></li>
+                                        <li><a href="">Anorid</a></li>
+                                        <li><a href="">Anorid</a></li>
+                                        <li><a href="">Anorid</a></li>
+                                        <li><a href="">Anorid</a></li>
+                                    </ul>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="col-md-3">
+                    <div class="footer_title">
+                        about us
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="footer_title">
+                        about us
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="height: 100px;">
+                <div class="col-md-12">
+                    <div style="font-size: 25px;">Follow Us</div>
+                    <br>
+                    <i class="fa fa-car"></i> &nbsp;&nbsp;
+                    <i class="fa fa-car"></i> &nbsp;&nbsp;
+                    <i class="fa fa-car"></i> &nbsp;&nbsp;
+                    <i class="fa fa-car"></i> &nbsp;&nbsp;
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

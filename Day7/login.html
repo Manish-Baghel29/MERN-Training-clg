@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <style>
+        .my_container {
+            background-color: darkblue;
+        }
+
+        .my_first_row {
+            height: 80px;
+        }
+
+        .log_in {
+            margin-left: 5%;
+            margin-top: 5%;
+            font-size: 30px;
+        }
+
+        .mar_man {
+            margin: 5%;
+        }
+
+        .text_man {
+            width: 100%;
+            height: 40px;
+            border-width: 0px 0px 2px 0px;
+            outline: none;
+        }
+
+
+        .my_btn_login {
+            background-color: #558562;
+            width: 140px;
+        }
+
+        .my_btn_login1 {
+            background-color: #02f252;
+            width: 140px;
+        }
+
+        @media only screen and (max-width: 600px) {
+            .login_img {
+                display: none;
+            }
+
+            .my_btn_login {
+
+                width: 100%;
+            }
+
+            .my_btn_login1 {
+
+                width: 100%;
+            }
+
+            .a_man {
+                text-align: center;
+            }
+
+            .my_first_row {
+                height: 172px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container-fluid my_container">
+        <div class="row my_first_row">
+            <div class="col-md-12"></div>
+        </div>
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6" style="background-color: white;">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="log_in">
+                            Log In .....
+                        </div>
+                        <div class="mar_man">
+                            <input type="text" name="" class="text_man" placeholder="Email/Mobile Number" id="">
+                        </div>
+                        <div class="mar_man">
+                            <input type="password" name="" class="text_man" placeholder="Password" id="">
+                        </div>
+                        <div class="mar_man">
+                            <a href="" class="btn btn-primary my_btn_login">LOGIN IN</a>
+                        </div>
+                        <div class="mar_man">
+                            <div class="a_man">
+                                <a href="" style="text-decoration: none; text-transform: capitalize;">Not a memeber
+                                    ?</a>
+                            </div>
+                        </div>
+                        <div class="mar_man">
+                            <a href="" class="btn btn-primary my_btn_login1">SIGN IN</a>
+                        </div>
+                        <div class="mar_man">
+                            <a href="index.html" class="btn btn-primary my_btn_login1">HOME</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="assets/gallery/boy.jpg" alt="" class="login_img" style="width: 100%;">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3"></div>
+        </div>
+        <div class="row my_first_row">
+            <div class="col-md-12"></div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
