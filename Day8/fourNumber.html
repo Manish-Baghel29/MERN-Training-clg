@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS</title>
+    <script>
+      function checkMaximum() {
+        let a = Number(prompt("Enter 1st number ?"));
+        let b = Number(prompt("Enter 2nd number ?"));
+        let c = Number(prompt("Enter 3rd number ?"));
+        let d = Number(prompt("Enter 4th number ?"));
+        if(a>b && a>c && a>d) {
+          document.writeln(`${a} is the max in (${a} ,${b} ,${c} ,${d})`);
+        }else if(b>c && b>d){
+            document.writeln(`${b} is the max in (${a} ,${b} ,${c} ,${d})`);
+        }else if(c>d){
+            document.writeln(`${c} is the max in (${a} ,${b} ,${c} ,${d})`);
+        }else{
+            document.writeln(`${d} is the max in (${a} ,${b} ,${c} ,${d})`);
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <button onclick="checkMaximum()">checkHighestValue</button>
+  </body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Marks</title>
+  </head>
+  <body>
+    <center>
+      <h3>Enter your units to generate your bill </h3>
+      <input type="number" name="" id="unit" placeholder="Units"/><br /><br />
+      <input
+        type="submit"
+        value="Calculate Bill"
+        onclick="calcBill()"
+      /><br /><br />
+      <div id="result"></div><br><br>
+      <h3>Enter character to Check vowel or consonent </h3>
+      <input type='text' name="" id="char" maxlength="1" placeholder="Character"/><br /><br />
+      <input type="submit" value="Check Character" onclick="vowel()"><br><br>
+      <h3>Enter number to generate its table </h3>
+      <input type='number' name="" id="table" placeholder="Table number"/><br /><br />
+      <input type="submit" value="Print table" onclick="table()"><br><br>
+      <p id="ptable"></p>
+      <h3>Click on below button and enter your number to count even , odd , positive and negative</h3>
+      <input type="submit" onclick="count()" value="count">
+    </center>
+    <script src="script.js"></script>
+  </body>
+</html>
