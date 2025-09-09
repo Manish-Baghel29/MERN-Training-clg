@@ -14,3 +14,13 @@ function fact(){
     }
     alert("The factorial is :" +fact);
 }
+
+function pattern(){
+    let n = Number(prompt('Enter lines ?'));
+    for(let i=1 ;i<=n; i++){
+        for(let j=n;j>=i;j--){
+            document.writeln(j);
+        }
+        document.writeln('<br/>');
+    }
+}
